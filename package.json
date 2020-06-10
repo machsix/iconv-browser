@@ -1,0 +1,33 @@
+{
+  "name": "iconv-browser",
+  "version": "1.0.0",
+  "description": "iconv for browser",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machsix/iconv-browser.git"
+  },
+  "keywords": [
+    "iconv"
+  ],
+  "author": "machsix",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/machsix/iconv-browser/issues"
+  },
+  "homepage": "https://github.com/machsix/iconv-browser#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@rollup/plugin-babel": "^5.0.3",
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "rollup": "^2.15.0"
+  },
+  "dependencies": {
+    "@sinonjs/text-encoding": "^0.7.1"
+  }
+}
